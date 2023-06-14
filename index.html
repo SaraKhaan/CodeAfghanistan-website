@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Serif:ital@0;1&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+      </style>
+       <!-- scroling animation css  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- --------------bootstrap----------------- -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous"> -->
+    <!-- bootstrap ends here---- - - - -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome/fonts/FontAwesome.otf">
+	<link rel="stylesheet" href="font-awesome/less/icons.less">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome/fonts/FontAwesome.otf">
+	<link rel="stylesheet" href="font-awesome/less/icons.less">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet"  href="css/bootstrap.css">
+	<link rel="stylesheet"  href="css/bootsrap-grid.css.map">
+	<link rel="stylesheet"  href="css/bootstrap-grid.min.css">
+  
+    <title>Code Afghanistan</title>
+</head>
+<body>
+  
+    <!-- ...........heading section........... -->
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.png" alt="logo"></a>
+                    <p class="company-name">Code Afghanistan</p>
+                    
+                </div>
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <ul >
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item" ><a href="#products">Products</a></li>
+                    <li id="parent" class="nav-item"><a href="#service">Services</a>
+                            <ul class="child">
+                                <li class="nav-item"><a href="#service-1">Custome Software Development</a></li>               </li>
+                                <li class="nav-item"><a href="#service-2">Desktop Application Development</a></li>
+                                <li class="nav-item"><a href="#service-3">Mobile Application Development</a></li>
+                                <li class="nav-item"><a href="#service-4">Web Design and Development</a></li>
+                                
+                            </ul>                        
+                    </li> 
+                
+                    <li class="nav-item"><a href="#projects.html">Projects</a></li>
+                    <li class="nav-item"><a href="#clients">Clients</a></li>
+                    <li class="nav-item"><a href="#about">About Us</a></li>
+                    <li class="nav-item"><a href="#community">Community</a></li>
+                    <li class="nav-item"><a href="#contact">contact Use</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+<!----------------The home section------------------>
+
+<section id="home" class="home">
+    <div class="container">
+        <div class="bg-home"></div>
+        <div class="row min-vh-100 align-items-center">
+            <div class="home-text" data-aos="fade-up" data-aos-duration="2000">
+                <h1>Code Afghanistan</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Corporis inventore sapiente voluptate repellendus reprehenderit
+                      exercitationem.</p>
+                 <a href="#commynity.codeAfghanistan" class="btn btn-default">Our Community</a>     
+            </div>
+        </div>
+    </div>
+</section>
+<!------------- products section ------------------>
+
+<section class="testimonials section-padding" id="products">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-title="testimonials" data-aos="fade-up" data-aos-duration="1000">Products</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-3 col-lg-3 testi-item" data-aos-duration="1000" data-aos="zoom-in">
+                <div class="testi-author">
+                    <div class="testi-author-name">
+                        <h3>Huda</h3>
+                        <span>Educational</span>
+                    </div>
+                    <div class="testi-author-img">
+                        <img src="img/product_1.png">
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Officia accusantium quis voluptatum deserunt suscipit
+                      deleniti dignissimos consectetur, numquam quibusdam
+                       voluptatibus.</p>
+                 <div class="ratings">
+                     <i class="fa fa-star star" data-rating="1"></i>
+                     <i class="fa fa-star star" data-rating="2"></i>
+                     <i class="fa fa-star star" data-rating="3"></i>
+                     <i class="fa fa-star star" data-rating="4"></i>
+                     <i class="fa fa-star star" data-rating="5"></i>
+                 </div>   
+                 <p class="result"></p>   
+            </div>
+            <div class="col-md-3 col-lg-3 testi-item" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="testi-author">
+                    <div class="testi-author-name">
+                        <h3>Khanagi</h3>
+                        <span>Foody</span>
+                    </div>
+                    <div class="testi-author-img">
+                        <img src="img/product_2.png">
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Officia accusantium quis voluptatum deserunt suscipit
+                      deleniti dignissimos consectetur, numquam quibusdam
+                       voluptatibus.</p>
+                 <div class="ratings">
+                     <i class="fa fa-star star" data-rating="1"></i>
+                     <i class="fa fa-star star" data-rating="2"></i>
+                     <i class="fa fa-star star" data-rating="3"></i>
+                     <i class="fa fa-star star" data-rating="4"></i>
+                     <i class="fa fa-star star" data-rating="5"></i>
+                 </div>   
+                 <p class="result"></p>
+            </div>
+            <div class="col-md-3 col-lg-3 testi-item" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="testi-author">
+                    <div class="testi-author-name">
+                        <h3>Mehman App</h3>
+                        <span>specialist</span>
+                    </div>
+                    <div class="testi-author-img">
+                        <img src="img/product_3.png">
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Officia accusantium quis voluptatum deserunt suscipit
+                      deleniti dignissimos consectetur, numquam quibusdam
+                       voluptatibus.</p>
+                 <div class="ratings">
+                     <i class="fa fa-star star" data-rating="1"></i>
+                     <i class="fa fa-star star" data-rating="2"></i>
+                     <i class="fa fa-star star" data-rating="3"></i>
+                     <i class="fa fa-star star" data-rating="4"></i>
+                     <i class="fa fa-star star" data-rating="5"></i>
+                 </div>
+                 <p class="result"></p>      
+          </div>
+
+          <div class="col-md-3 col-lg-3 testi-item" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="testi-author">
+                <div class="testi-author-name">
+                    <h3>Mehman App</h3>
+                    <span>specialist</span>
+                </div>
+                <div class="testi-author-img">
+                    <img src="img/product_4.png">
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Officia accusantium quis voluptatum deserunt suscipit
+                  deleniti dignissimos consectetur, numquam quibusdam
+                   voluptatibus.</p>
+             <div class="ratings">
+                 <i class="fa fa-star star" data-rating="1"></i>
+                 <i class="fa fa-star star" data-rating="2"></i>
+                 <i class="fa fa-star star" data-rating="3"></i>
+                 <i class="fa fa-star star" data-rating="4"></i>
+                 <i class="fa fa-star star" data-rating="5"></i>
+             </div>
+             <p class="result"></p>      
+        </div>
+</section>
+
+ <!-- ----------products------ -->
+ <!-- <section >
+    <div class="row slideshow">
+      <center>
+          <div class="slide">
+            <img src="img/product_1.png" alt="img-home" />
+          </div>
+         <div class="slide">
+             <p>Desktop Software Development</p>
+            <img src="img/product_2.png" alt="img-ser"/>
+          </div>
+          <div class="slide">
+            <p>Our Product</p>
+            <img class="mihmani" src="img/product_3.png" alt="img-khangi"/>
+          </div>
+          <div class="slide">
+            <p>Custom Software Development</p>
+            <img src="img/product_4.png" alt="img-pro" />
+          </div>
+      </center>
+    </div>
+</section> -->
+
+<!------------- services section ------------------>
+<section class="about section-padding" id="service">
+   <div class="container">
+    <div class="menu">
+        <h2 data-title= "Services">Our Services</h2>
+       <div class="row min-vh-100 align-items-center all-service">
+            <div id="service-1" class="col-md-3 service imageHover " data-aos="flip-right" data-aos-duration="1000">
+                <h4 class="" data-aos="fade-up">Web Design and Development</h4> <br>
+                <img src="img/web_application_development.png" alt="Service 1" />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae
+                    lobortis quam. Vestibulum non dictum leo, sit amet lacinia elit.
+                </p>
+        
+            </div>
+
+            <div id="service-2" class="col-md-3 service imageHover" data-aos="flip-right" data-aos-duration="1000">
+                <h4 class="" data-aos="fade-up">Mobile Application Development</h4> <br>
+                <img src="img/mobile_application_development.png" alt="Service 2" />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae
+                    lobortis quam. Vestibulum non dictum leo, sit amet lacinia elit.
+                </p>
+        
+            </div>
+
+            <div id="service-3" class="col-md-3 service imageHover"data-aos="flip-right"data-aos-duration="1000" >
+                <h4 class="" data-aos="fade-up">Custom Software Development</h4> <br>
+                <img src="img/custom_software_development.png" alt="Service 3" />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae
+                    lobortis quam. Vestibulum non dictum leo, sit amet lacinia elit.
+                </p>
+        
+            </div>
+            <div id="service-4" class="col-md-3 service imageHover" data-aos="flip-right" data-aos-duration="1000">
+                <h4 class="" data-aos="fade-up">desktop application Development</h4><br>
+                <img src="img/desktop_software_development.png" alt="Service 3" />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae
+                    lobortis quam. Vestibulum non dictum leo, sit amet lacinia elit.
+                </p>
+           </div>
+        </div>  
+    </div>
+  </div>
+</section>
+<!-- -------new design for products from farkhunda--------- -->
+
+
+<!------------- projects section from Sara Shirzad ------------------>
+
+<!------------- clients section from Sara Shirzad------------------>
+
+<!------------- community section ------------------>
+
+<!------------- about section ------------------>
+
+<section class="about section-padding" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-title= "our story" data-aos="fade-up" >about us</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about-text col-md-6" data-aos="fade-right">
+                     <h3>welome to Code Afghanistan</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur
+                     adipisicing elit.
+                     Excepturi sit dolores velit dolore voluptatibus, rerum 
+                     inventort dolores velit dolore voluptatibus, rerum 
+                     inventore odit aut temporibus officia
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Excepturi sit dolores velit dolore voluptatibus, rerum 
+                        inventore o dolores velit dolore voluptatibus, rerum 
+                        inventore odit aut temporibus officia</p>
+                    <a href="#community.codeafghanistan.com" class="btn btn-default">check out our Community</a>        
+            </div>
+              <div class="col-md-6 about-img" data-aos="fade-left">
+                  <div class="img-box">
+                    <!-- <h3>experience tope projects</h3> -->
+                    <img src="img/about_us.png">
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ <!------------- Team section ------------------>
+
+ <section class="team section-padding" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-title="team" data-aos="fade-up" data-aos-duration="1000">Our Team</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 team-item" data-aos="flip-left" data-aos-duration="1500">
+                <img src="img/member1.jpg" alt="team-item" data-aos="flip-left" data-aos-duration="1500">
+                <div class="team-item-info">
+                    <h2>ahmad tamim</h2>
+                    <p>head</p>
+                </div>
+            </div>
+            <div class="col-md-4 team-item" data-aos="flip-left" data-aos-duration="1500">
+                <img src="img/member1.jpg" alt="team-item" data-aos="flip-left" data-aos-duration="1500">
+                <div class="team-item-info">
+                    <h2>ahmad tamim</h2>
+                    <p>top member</p>
+                </div>
+            </div>
+            <div class="col-md-4 team-item" data-aos="flip-left" data-aos-duration="1500">
+                <img src="img/member1.jpg" alt="team-item" data-aos="flip-left" data-aos-duration="1500">
+                <div class="team-item-info">
+                    <h2>ahmad tamim</h2>
+                    <p>Top member</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------------The Footer Section ---------------------->
+
+<section id="contact" class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-item" data-aos="fade-up" data-aos-duration="1000">
+                <h3>location</h3>
+                <p> Kabul, Afghanistan
+                    <br>
+                    Shahr-Naw 
+                </p>
+                
+            </div>
+            <div class="footer-item" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Opening hours</h3>
+                <p>
+                    9:00 AM to 10:00 PM
+                    <br>Avaliable
+                </p>
+                
+            </div>
+            <div class="footer-item" data-aos="fade-up" data-aos-duration="1000">
+                <h3>Contact Us</h3>
+                <p> 
+                    CodeAfghanistan@gmail.com
+                </p>
+                <div class="social-links">
+                    <a href="https://facebook.com/CodeAfghanistanSolutions"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/CodeAfghanistan"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/CodeAfghanistan"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/codeafghanistan/"><i class="fa fa-linkedin"></i></a>
+                    <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
+                </div>
+                
+            </div>  
+        </div>
+        <div  class="row">
+            <div class="location">
+                <p>Kabul, Aghanistan .</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+    <!-- scrolling animation using js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
