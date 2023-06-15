@@ -469,6 +469,9 @@ p{
 .testi-item p{
     margin: 15px 0;
 }
+.row a:hover{
+    text-decoration: none;
+}
 /* -----------------------rating section-------- */
 
 .testi-item .ratings i{
