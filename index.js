@@ -70,4 +70,4 @@ menuTabs.addEventListener("click", function(e){
 //     result.innerHTML = "You rated this picture " + this.getAttribute("data-rating") + " stars.";
 //   });
 // }
-// profuct khadijaa------------
+

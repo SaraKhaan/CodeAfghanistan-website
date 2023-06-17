@@ -386,6 +386,9 @@ p{
    
     /* border-radius: 10px; */
 }
+.about-img .img-box-client{
+    position: relative;
+}
 .about-img .img-box{
     position: relative;
 }
@@ -540,6 +543,303 @@ p{
     opacity: 2;
 } */
 
+/* --------------clint sara----------------- */
+.client-warp {
+    max-width: 1559px;
+    padding: 0 15px;
+    margin: 0 auto -30px;
+    background-color: var(--blue-l3);
+  }
+.client-section{
+    background-color: var(--blue-l3);
+}
+.featured-clients{
+    margin-left: 50px;
+    border-radius: 20px;
+} 
+.client-item {
+    margin-bottom: 50px;
+  }
+  
+.client-item .client-thumb {
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+.client-item .client-thumb .price {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    background: #002b38;
+    display: inline-block;
+    padding: 13px 19px;
+    margin: 14px;
+  }
+  
+.client-item .client-info {
+    background: var(--blue-l4);
+    border-radius: 10px;
+  }
+  
+.client-item .client-info .client-text {
+    padding: 45px 33px 25px;
+  }
+  
+.client-item .client-info .client-text h5 {
+    margin-bottom: 5px;
+
+  }
+   
+
+.client-item .client-info .client-text .clients {
+    font-size: 18px;
+    font-weight: 600;
+    color: #002b38;
+  }
+  .client-item .client-info .client-text .clients a{
+    color: var(--light-blue);
+    font-family: monospace;
+  }
+.client-item .client-info .client-author {
+    border-top: 1px solid #d4dee1;
+   
+    overflow: hidden;
+  }
+   
+.client-item .client-info .client-author .ca-pic {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    float: left;
+
+  }
+  
+.client-item .client-info .client-author p {
+    padding-left: 60px;
+    margin-bottom: 0;
+    padding-top: 7px;
+    font-weight: 600;
+  }
+  
+.client-item .client-info .client-author p span {
+    color: #002b38;
+  }
+  
+.client-item.featured-client {
+    position: relative;
+    margin-bottom: 97px;
+  }
+  
+.client-item.featured-client:last-child {
+    margin-bottom: 30px;
+  }
+  
+.client-item.featured-client:nth-child(2n) .client-thumb {
+    left: auto;
+    right: 0;
+  }
+.client-item.featured-client:nth-child(n) .client-thumb {
+    right: auto;
+    left: 0;
+   
+  }
+  
+.client-item.featured-client .client-thumb {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 10px;
+  }
+  
+.client-item.featured-client .fet-note {
+    display: inline-block;
+    background: #002b38;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 15px;
+    margin-bottom: 20px;
+  }
+  
+.client-item.featured-client .client-info .client-text {
+    padding: 70px 33px 25px;
+  }
+  
+.client-item.featured-client .client-info .client-text h5 {
+    margin-bottom: 20px;
+  }
+  
+.client-item.featured-client .client-info .client-author {
+    border-top: none;
+    padding: 14px 33px 60px;
+  } */
+  /* -----project sara sec------------ */
+ .client-filter {
+    list-style: none;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 60px;
+  }
+  
+.client-filter li {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--blue-l4);
+    padding: 12px 10px 5px;
+    margin: 0 10px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+.client-filter li.mixitup-control-active {
+    color: var(--light-blue);
+    border-bottom: 4px solid #002b38;
+  }
+
+.client-meta-area {
+    background: var(--blue-l3);
+    padding: 35px 0;
+  }
+  
+.client-meta-area .client-note {
+    display: inline-block;
+    background: #d82a4e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 15px;
+    margin-bottom: 20px;
+  }
+  
+.client-metas {
+    padding-top: 50px;
+    margin-bottom: 45px;
+    display: table;
+  }
+  
+.client-meta {
+    display: table-cell;
+    height: 100%;
+    border-right: 2px solid #c5ced0;
+    padding: 5px 50px;
+  }
+  
+.client-meta:nth-child(1) {
+    padding-left: 0;
+  }
+  
+.client-meta:nth-child(4) {
+    padding-right: 0;
+    border-right: none;
+  }
+  
+.client-meta p {
+    margin-bottom: 0;
+  }
+  
+.client-meta .client-author .ca-pic {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    float: left;
+  }
+  
+.client-meta .client-author h6 {
+    padding-left: 60px;
+  }
+  
+.client-meta .client-author p {
+    padding-left: 60px;
+    margin-bottom: 0;
+    padding-top: 4px;
+    font-weight: 600;
+  }
+  
+.client-meta .client-author p span {
+    color: var(--light-blue);
+  }
+  
+.client-meta .cm-info h6 {
+    margin-bottom: 3px;
+  }
+  
+.client-meta .cm-info p {
+    font-weight: 600;
+  }
+  
+.client-meta .rating {
+    padding-left: 15px;
+    font-size: 12px;
+  }
+  
+.client-meta-area .site-btn {
+    min-width: auto;
+    font-size: 14px;
+  }
+  
+.client-meta-area .price-btn {
+    padding: 20px 30px;
+    background: var(--blue-l4);
+    margin-right: 10px;
+  }
+  
+.client-meta-area .buy-btn {
+    padding: 20px 40px;
+  }
+  
+.client-preview {
+    padding-top: 37px;
+    margin-bottom: 55px;
+  }
+  
+.client-list .cl-item {
+    margin-bottom: 55px;
+  }
+  
+.client-list .cl-item h4 {
+    margin-bottom: 46px;
+  }
+  
+.client-list .cl-item p {
+    margin-bottom: 0;
+  }
+  
+.realated-clients {
+    background: var(--blue-l4);
+  }
+  
+.realated-clients .rc-title {
+    font-size: 34px;
+    margin-bottom: 85px;
+  }
+  
+.realated-clients .client-item .client-info {
+    background: var(--blue-l3);
+  }
+  
+.realated-clients .owl-next {
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    margin-top: -27px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    padding-top: 10px;
+    background: #d82a4e;
+  } */
+  /* js project---------- */
+  
 /*---------------------------- service------------- */
 .menu{
     background-color: var(--blue-l3);
